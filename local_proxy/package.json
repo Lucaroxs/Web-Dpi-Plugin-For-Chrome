@@ -1,0 +1,11 @@
+{
+    "name": "dpi-bypass-proxy",
+    "version": "1.0.0",
+    "description": "Local proxy for DPI evasion",
+    "main": "proxy.js",
+    "scripts": {
+        "start": "node proxy.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
