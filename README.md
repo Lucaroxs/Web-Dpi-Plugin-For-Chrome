@@ -25,3 +25,11 @@ This project is a specialized tool designed to bypass DPI (Deep Packet Inspectio
 1.  Click the extension icon in your browser toolbar.
 2.  Click **Enable**.
 3.  You can now access blocked websites.
+
+## How to Stop the Hidden Proxy
+If you used the "Hide Console" feature, the proxy runs in the background as **"Proxy Stable.exe"**.
+To stop it completely:
+1.  Open **Task Manager** (Ctrl + Shift + Esc).
+2.  Find **"Proxy Stable.exe"** in the list.
+3.  Right-click and select **End Task**.
+4.  Alternatively, running `start_proxy.bat` again will automatically kill the old process before starting a new one.
